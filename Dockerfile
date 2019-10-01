@@ -1,7 +1,5 @@
 FROM python:latest
 
-WORKDIR /app
+ADD entrypoint.py /entrypoint.py
 
-COPY entrypoint.py /bin/runscript
-
-CMD ["runscript"]
+ENTRYPOINT ["/entrypoint.py"]
