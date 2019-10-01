@@ -1,0 +1,7 @@
+name: 'test action'
+author: Param Thakkar
+description: 'test'
+
+runs:
+  using: 'python'
+  main: 'entrypoint.py'
