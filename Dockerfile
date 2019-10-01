@@ -1,3 +1,5 @@
-FROM python
-RUN pip install --no-cache-dir -r requirements.txt
-RUN python3 entrypoint.py
+FROM python:latest
+
+COPY entrypoint.py /usr/local/share/
+
+CMD ["entrypoint.py"]
