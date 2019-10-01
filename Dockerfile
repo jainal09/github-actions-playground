@@ -1,5 +1,5 @@
 FROM python:latest
 
-COPY entrypoint.py /usr/local/share/
+COPY . .
 
-CMD ["entrypoint.py"]
+CMD ["python", "entrypoint.py"]
