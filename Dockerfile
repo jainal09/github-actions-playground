@@ -2,6 +2,6 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY . .
+COPY entrypoint.py /bin/runscript
 
-CMD ["python", "entrypoint.py"]
+CMD ["runscript"]
