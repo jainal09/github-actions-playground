@@ -5,7 +5,7 @@ description: 'test'
 inputs: 
   test_var:
     description: 'A test variable'
-    required: false
+    required: true
 
 runs:
   using: 'docker'
