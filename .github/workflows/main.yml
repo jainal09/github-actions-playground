@@ -10,3 +10,5 @@ jobs:
     steps:
       - name: Test the GH action
         uses: paramt/github-actions-playground@master
+        with:
+          test_var: "this is just a test"
