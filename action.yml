@@ -3,7 +3,7 @@ author: Param Thakkar
 description: 'test'
 
 inputs: 
-  test_var:
+  TEST_VAR:
     description: 'A test variable'
     required: true
 
