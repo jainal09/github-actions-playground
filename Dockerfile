@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 RUN chmod +x entrypoint.py
 
 # Run script with the ENV var
-ENTRYPOINT TEMP_VAR=$(cat /temp_var); /entrypoint.py
+ENTRYPOINT export TEST_VAR="this is just a test"; /entrypoint.py
