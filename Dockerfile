@@ -12,4 +12,4 @@ RUN pip install -r requirements.txt
 RUN chmod +x entrypoint.py
 
 # Run script with the ENV var
-RUN TEMP_VAR=$(cat /temp_var); python /entrypoint.py
+ENTRYPOINT TEMP_VAR=$(cat /temp_var); /entrypoint.py
