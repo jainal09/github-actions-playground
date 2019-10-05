@@ -15,4 +15,4 @@ RUN echo "temp var: "
 RUN cat /temp_var
 
 # Run script with the ENV var
-ENTRYPOINT export TEST_VAR="$TEST_VAR"; /entrypoint.py
+ENTRYPOINT export TEST_VAR="$INPUT_TEST_VAR"; /entrypoint.py
