@@ -10,4 +10,4 @@ jobs:
         uses: paramt/url-checker@master
         with:
           files: "test.md"
-          blacklist: "https://www.github.com/paramt/link-that-does-not-exist"
+          blacklist: "https://www.github.com/paramt/url-that-does-not-exist"
