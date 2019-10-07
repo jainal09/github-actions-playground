@@ -1,14 +1,12 @@
-name: CI
+name: Check URLs
 
 on: [push]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-    
     steps:
-      - name: Test the GH action
-        uses: paramt/github-actions-playground@master
+      - name: Check URLs
+        uses: paramt/url-checker@master
         with:
-          TEST_VAR: "this is just a test"
+          files: "README.md"
