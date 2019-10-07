@@ -9,4 +9,4 @@ jobs:
       - name: Check URLs
         uses: paramt/url-checker@master
         with:
-          files: "README.md"
+          files: "test.md"
