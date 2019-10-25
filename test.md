@@ -2,6 +2,7 @@
 
 - https://www.github.com/paramt
 - https://www.github.com/paramt/url-that-does-not-exist
-- [internal link test](#internal-link)
+- [internal link that exists](#internal-link)
+- [internal link that does not exist](#internal-link-does-not-exist)
 
 ### Internal Link
